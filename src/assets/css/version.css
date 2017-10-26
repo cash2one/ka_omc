@@ -1,0 +1,104 @@
+@charset "UTF-8";
+#version{}
+.m-crumb>*, .m-handle>.u-icon-base, .u-icon-add{
+	display: inline-block;vertical-align: middle;
+}
+.m-crumb{}
+.m-crumb>a{
+	color:#379AFF;
+	font-size: 0.15rem;
+	font-weight: 500;
+}
+.m-crumb>a:hover{}
+.m-crumb>.line{
+	width: 0.15rem;
+	height: 0.2rem;
+	margin:0 3px;
+	background-image: url(../img/line.png);
+	background-size:0.15rem;
+}
+.m-crumb>.active{
+	color: #000;
+}
+.m-version-list{
+	margin-top:0.4rem;
+	color:#48576a;
+}
+.m-version-list th{
+	padding:0.1rem 0;
+	font-weight: normal;
+}
+.m-version-list th:first-child, .m-version-list th:last-child{
+	width: 1rem;
+}
+.m-version-list>tbody>tr{
+	background-color: #fff;
+	border-right: none;
+	box-shadow:0 0 3px rgba(0,0,0,0.2);
+	cursor: pointer;
+	transition: all .2s;-webkit-transition: all .2s;-moz-transition: all .2s;
+}
+.m-version-list>tbody>tr:hover{
+	box-shadow:0 0 10px rgba(0,0,0,0.2);
+	transform: scale(1.005);-webkit-transform: scale(1.005);-moz-transform: scale(1.005);-ms-transform: scale(1.005);
+}
+.m-version-list>tbody>tr:first-child{
+	border-radius:5px 0 0 0;
+}
+.m-version-list>tbody>tr:last-child{
+	border-radius:0 0 0 5px;
+}
+.m-version-list>tbody>tr:nth-child(even){
+	background-color: #F8FAFC;
+}
+.m-version-list>tbody>tr>td{
+	padding: 0.12rem 0;
+}
+.m-handle{}
+.m-handle>.u-icon-base{
+	width:0.2rem;height: 0.2rem;
+	background-size:0.2rem;
+}
+.u-icon-add{
+	width: 0.28rem;
+	height: 0.28rem;
+	background-image: url(../img/add_2.png);
+	background-size:0.28rem;
+}
+.u-icon-add:hover{
+	background-image: url(../img/add_1.png);
+}
+.u-icon-details{
+	background-image: url(../img/details_2.png);
+	margin-right: 0.2rem;
+}
+.u-icon-delete{
+	background-image: url(../img/delete_2.png);
+}
+.m-handle>.u-icon-details:hover{
+	background-image: url(../img/details_1.png);
+}
+.m-handle>.u-icon-delete:hover{
+	background-image: url(../img/delete_1.png);
+}
+
+
+.o-layer-detailsEdit{
+
+}
+.o-layer-detailsEdit>.m-input-label{
+	margin-bottom: 10px;
+	padding: 0 10px;
+}
+.o-layer-detailsEdit>.m-input-label>label{
+	float: left;
+	display: inline-block;
+	width: 0.75rem;
+}
+.o-layer-detailsEdit>.m-input-label>.box{
+	margin-left: 0.8rem;
+	width: 4rem;
+}
+.o-layer-detailsEdit>.m-input-label>.box>textarea{
+	height: 70px;
+}
